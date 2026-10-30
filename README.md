@@ -1,29 +1,37 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Knowledge Discovery Agents Banner" width="100%" />
+</p>
+
 # Awesome AI Knowledge Discovery Agents 🤖🔍
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents/pulls)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents/graphs/commit-activity)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-> **A curated directory of leading SaaS platforms and open-source GitHub projects for AI-powered Enterprise Search, RAG with Citations, Permission-Aware Retrieval, Knowledge Graphs, and Autonomous Knowledge Agents.**
+> **🌟 A curated directory of leading SaaS platforms and open-source GitHub projects for AI-powered Enterprise Search, RAG with Citations, Permission-Aware Retrieval, Knowledge Graphs, and Autonomous Knowledge Agents. 🚀**
 
 ---
 
 ## 📖 Overview
 
-Organizations generate mountains of unstructured intelligence scattered across disparate SaaS silos (Slack, Google Drive, Notion, Confluence, Jira, GitHub, Zendesk, Salesforce). Traditional keyword search fails across this fragmentation. 
+Organizations generate mountains of unstructured intelligence scattered across disparate SaaS silos 🏢 (Slack 💬, Google Drive 📁, Notion 📝, Confluence 📚, Jira 🎯, GitHub 🐙, Zendesk 🎫, Salesforce 💼). Traditional keyword search fails across this fragmentation. 
 
-**AI Knowledge Discovery Agents** bridge this gap by indexing distributed organizational data, adhering strictly to enterprise Access Control Lists (ACLs), synthesizing contextual answers with passage-level citations via Retrieval-Augmented Generation (RAG), and orchestrating multi-step agentic workflows.
+**AI Knowledge Discovery Agents** 🤖 bridge this gap by indexing distributed organizational data, adhering strictly to enterprise Access Control Lists (ACLs) 🛡️, synthesizing contextual answers with passage-level citations via Retrieval-Augmented Generation (RAG) 📑, and orchestrating multi-step agentic workflows ⚡.
 
-This list tracks:
-- **Commercial SaaS Platforms:** Fully managed, turn-key workplace intelligence and cognitive search engines.
-- **Open-Source Systems & Frameworks:** Self-hostable, privacy-preserving, air-gapped, and local-first AI search infrastructure.
+This directory tracks:
+- 🏢 **Commercial SaaS Platforms:** Fully managed, turn-key workplace intelligence and cognitive search engines.
+- 💻 **Open-Source Systems & Frameworks:** Self-hostable, privacy-preserving, air-gapped, and local-first AI search infrastructure.
 
 ---
 
 ## 📊 Sector Overview & Market Dynamics
 
-The AI-driven enterprise search and knowledge discovery sector is valued between **$6.4B and $7.5B** (projected to reach over **$14B+ by the early 2030s** at an 8.5%–14% CAGR, accelerated by enterprise generative AI and agentic RAG adoption). 
+The AI-driven enterprise search and knowledge discovery sector is valued between **$6.4B and $7.5B** 📈 (projected to reach over **$14B+ by the early 2030s** at an 8.5%–14% CAGR 🚀, accelerated by enterprise generative AI and agentic RAG adoption). 
 
 The market exhibits a **bifurcated hybrid structure: highly concentrated at the platform core, yet extensively fragmented across independent specialized vendors**. Tech hyperscalers (Microsoft 365 Copilot/Azure AI Search, Google Vertex AI Search, and ServiceNow) capture broad enterprise desktop mindshare; however, high corporate data fragmentation and strict access control requirements sustain a vibrant, fragmented ecosystem of specialized search engines (Glean, Coveo, Hebbia) and rapidly maturing open-source platforms (Onyx, PipesHub, RAGFlow, Khoj).
 
@@ -31,18 +39,20 @@ The market exhibits a **bifurcated hybrid structure: highly concentrated at the 
 
 ## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS & Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
-- [Open-Source GitHub Projects](#-open-source-github-projects)
-- [Architectural Patterns & Key Differentiators](#-architectural-patterns--key-differentiators)
-- [How to Contribute](#-how-to-contribute)
-- [Disclaimer & Security Considerations](#-disclaimer--security-considerations)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architectural Patterns & Key Differentiators](#️-architectural-patterns--key-differentiators)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [🔒 Disclaimer & Security Considerations](#-disclaimer--security-considerations)
 
 ---
 
 ## 🏢 SaaS & Hosted Enterprise Platforms
 
-| Product | Company Scale / Valuation | Pricing (Starting Tier) | Free Tier Limits / Trial | Core Capabilities & Best For |
+| 🏢 Product | 📈 Company Scale / Valuation | 💰 Pricing (Starting Tier) | 🎁 Free Tier Limits / Trial | 💡 Core Capabilities & Best For |
 |:---|:---|:---|:---|:---|
 | **[Atlassian Rovo](https://www.atlassian.com/platform/artificial-intelligence)** | **$55B - $57B** Market Cap (NASDAQ: TEAM) | **$10/user/mo** (Jira/Confluence Cloud Standard tier; includes 25 pooled Rovo credits/seat/mo; excess at $0.01/credit) | **Forever-free plan capped at 10 users** (limited basic AI trials; no pooled Rovo credits) | Enterprise teamwork graph indexing Jira, Confluence, and 3rd-party connectors. Best for teams deeply invested in the Atlassian Cloud ecosystem. |
 | **[Notion Q&A](https://www.notion.com/)** | **$11B - $12B** Valuation ($865M+ ARR) | **$20/user/mo** billed annually ($24 monthly on Business plan, which bundles full Notion AI, Notion Agent, and Enterprise Search) | **Forever-free plan with 20 complimentary Notion AI trial responses**; 30-day trial for Business plan | Unified AI search across Notion workspaces and connected tools (Slack, Google Drive, GitHub). Best for Notion-centric teams wanting zero-setup search. |
@@ -59,9 +69,9 @@ The market exhibits a **bifurcated hybrid structure: highly concentrated at the 
 
 ## 💻 Open-Source GitHub Projects
 
-All repositories are sorted descending by community GitHub star count. Star counts reflect real-time live metrics.
+All repositories are sorted descending by community GitHub star count ⭐. Star counts reflect real-time live metrics.
 
-| Project | GitHub Stars | License | Architecture & Key Features | Deployment & Best For |
+| 💻 Project | ⭐ GitHub Stars | 📜 License | 🏗️ Architecture & Key Features | 🚀 Deployment & Best For |
 |:---|:---:|:---:|:---|:---|
 | **[Open WebUI](https://github.com/open-webui/open-webui)** | [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) | Open Source (Custom) | Self-hosted, user-friendly AI interface with built-in RAG, document ingestion, web search, multi-model support, Ollama orchestration, and granular RBAC. | Docker / Kubernetes. Best for organizations wanting an internal private ChatGPT-like knowledge portal over local or cloud models. |
 | **[RAGFlow](https://github.com/infiniflow/ragflow)** | [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) | Apache-2.0 | Deep document understanding engine based on OCR and vision-language extraction. Handles complex tables, slide decks, PDFs, multi-modal cross-referencing, and grounded citations. | Docker Compose. Best for enterprises processing complex, unstructured documents (PDFs, scans, manuals) needing high-accuracy extraction. |
@@ -114,17 +124,34 @@ When evaluating AI Knowledge Discovery and Enterprise Search solutions, tools ge
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 1. Permission-Aware Retrieval (ACL Enforcement)
+### 1. 🛡️ Permission-Aware Retrieval (ACL Enforcement)
 * **Pre-Query Filtering (Enterprise Standard):** Search queries evaluate the user's authenticated identity against the source document's Access Control Lists (ACLs) *before* similarity ranking occurs. A user never receives vector results or synthesized LLM answers derived from private files they lack credentials to view.
 * **Post-Query Filtering (Unsafe for Enterprise):** Retrieving top-k chunks blindly and filtering afterward leaks sensitive metadata and causes truncated or hallucinated answers.
 
-### 2. Retrieval Mechanisms: Vector vs. Hybrid vs. Graph
-* **Pure Vector (Dense):** Captures semantic intent but misses exact codes, SKUs, ticket keys (`PROJ-1042`), and names.
+### 2. 🔍 Retrieval Mechanisms: Vector vs. Hybrid vs. Graph
+* **Dense Vector Search:** Captures semantic intent but misses exact codes, SKUs, ticket keys (`PROJ-1042`), and names.
 * **Hybrid Search (Dense + BM25 Sparse):** Uses Reciprocal Rank Fusion (RRF) to combine keyword precision with semantic embeddings.
 * **Graph-RAG (Knowledge Graphs):** Maps organizational hierarchies, entity relationships, and cross-document references (e.g., Neo4j) to prevent hallucinated relationship queries.
 
-### 3. Model Context Protocol (MCP) Integration
+### 3. ⚡ Model Context Protocol (MCP) Integration
 Modern knowledge platforms now expose **MCP endpoints**, allowing developer environments (Cursor, Claude Desktop, VS Code) to securely query the enterprise knowledge graph as an external memory tool.
+
+---
+
+## 🌟 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring **Awesome AI Knowledge Discovery Agents**! 🙏 If you find this curated directory helpful for your research, enterprise architecture, or development projects, please consider supporting us:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and contribute** to keep entries fresh and comprehensive!
+- 📢 **Share with your colleagues** in engineering, IT, and AI research circles!
+- ☕ **Buy me a coffee / Sponsor the project:** Support ongoing curation and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
@@ -132,11 +159,11 @@ Modern knowledge platforms now expose **MCP endpoints**, allowing developer envi
 
 We welcome community contributions! To add a new platform or update existing metrics:
 
-1. **Fork** this repository.
+1. **Fork** this repository 🍴.
 2. Ensure your proposed addition meets the scope (Enterprise Search, RAG with Citations, Permission-Aware Access, or Autonomous Knowledge Agents).
 3. If proposing a **SaaS platform**, include starting pricing and explicit free tier/trial limits.
 4. If proposing an **Open-Source project**, verify that the repo is publicly accessible and provides an active open-source license.
-5. Create a descriptive commit and submit a **Pull Request**.
+5. Create a descriptive commit and submit a **Pull Request** 🚀.
 
 ---
 
