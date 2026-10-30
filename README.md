@@ -1,225 +1,147 @@
-# Awesome-AI-Knowledge-Discovery-Agents
+# Awesome AI Knowledge Discovery Agents 🤖🔍
 
-# Awesome-AI-Knowledge-Discovery-Agents
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-AI-Knowledge-Discovery-Agents/graphs/commit-activity)
 
-**Top AI Knowledge Discovery Agents (Opensource) 🌟 Star if you like it! 🌟**
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Enterprise Search, RAG with Citations, Permission-Aware Retrieval & Agentic Knowledge Access*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Knowledge Discovery & Agents**. These tools enable organizations to unify scattered knowledge across SaaS apps, wikis, and code repositories, then surface it through AI chat with citations, semantic search, and agentic workflows—from fully managed enterprise platforms with deep connectors and governance to self-hosted systems that give teams complete control over their data and model choices.
-
-
-
-**Examples** include Glean, Atlassian Rovo, Guru, Coveo, Hebbia, GoSearch, Dashworks, Notion Q&A, Slite AI, and Moveworks (the category leaders in commercial space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosting, enterprise search, and open RAG infrastructure. **Critical note**: The open-source space here has matured significantly—PipesHub and Turing are production-oriented alternatives to Glean and Coveo—but no open-source project matches Glean's 100+ connector breadth or Moveworks' agentic action execution at enterprise scale. The projects below range from full enterprise search platforms to local-first knowledge compilers and agent orchestrators.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Glean](https://www.glean.com/)**
-
-  **Enterprise AI search and knowledge discovery** platform connecting 100+ SaaS apps with permission-aware retrieval and AI assistants. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: large enterprises wanting the most mature, connector-rich search layer across their entire SaaS stack.
-
-
-
-- **[Atlassian Rovo](https://www.atlassian.com/platform/artificial-intelligence)**
-
-  **AI teammate within Atlassian Cloud** with Teamwork Graph connecting Jira, Confluence, and third-party connectors. **Pricing**: Credits in cloud subscription; extra usage $0.01 per credit . **Free tier**: Limited credits. **Best for**: organizations deeply invested in Atlassian wanting native AI search across their workspace.
-
-
-
-- **[Guru](https://www.getguru.com/)**
-
-  **AI-powered knowledge management** with verified answers and contextual delivery in Slack, Teams, and browsers. **Pricing**: Quote-only; per-user tiers. **Free tier**: None. **Best for**: teams wanting curated, verified knowledge cards rather than open-ended search.
-
-
-
-- **[Coveo](https://www.coveo.com/)**
-
-  **AI-powered enterprise search and relevance** platform with commerce and service applications. **Pricing**: Quote-only; metered by records/queries/seats . **Free tier**: None. **Best for**: enterprises wanting relevance tuning and analytics across complex content sources.
-
-
-
-- **[Hebbia](https://www.hebbia.com/)**
-
-  **AI knowledge discovery for document-heavy workflows** (finance, legal, due diligence). **Pricing**: Quote-only. **Free tier**: None. **Best for**: professionals needing deep analysis across large document sets, not general enterprise search.
-
-
-
-- **[GoSearch](https://www.gosearch.ai/)**
-
-  **AI enterprise search** with connectors and personalized results. **Pricing**: Quote-only. **Free tier**: Trial available. **Best for**: mid-market teams wanting a Glean alternative with faster deployment.
-
-
-
-- **[Dashworks](https://www.dashworks.ai/)**
-
-  **AI knowledge assistant** with 50+ connectors and Slack/Teams integration. **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting an AI assistant that answers questions across connected apps.
-
-
-
-- **[Notion Q&A](https://www.notion.com/)**
-
-  **AI search within Notion** workspaces. **Pricing**: Included with Notion AI add-on; per-user. **Free tier**: Limited AI trials. **Best for**: Notion-centric teams wanting AI search without third-party tools.
-
-
-
-- **[Slite AI](https://slite.com/)**
-
-  **AI-powered knowledge base** with Ask AI and collaborative docs. **Pricing**: Quote-only; per-user tiers. **Free tier**: Limited. **Best for**: teams wanting a wiki with built-in AI Q&A.
-
-
-
-- **[Moveworks](https://www.moveworks.com/)** (ServiceNow)
-
-  **AI employee support** with agentic resolution across IT, HR, and finance systems. **Pricing**: Quote-only; requires ServiceNow licensing post-acquisition. **Free tier**: None. **Best for**: enterprises wanting AI that takes actions (ticket creation, access requests), not just answers questions.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[PipesHub](https://github.com/pipeshub-ai/pipeshub-ai)**
-
-  **Open-source, self-hosted enterprise AI search and agent platform** (Apache 2.0) — **the most direct open-source alternative to Glean**, with ~3,850 GitHub stars and active development . **Features**: **50+ connectors** (Slack, Jira, GitHub, Google Drive, Notion, Confluence, Salesforce, Zendesk, Microsoft 365); **permission-aware search**—inherits source app permissions so users only see what they're allowed to see; **knowledge graph** (Neo4j/ArangoDB) for structural relationships; **hybrid vector + graph search** (Qdrant); **RAG with passage-level citations**; **AI agent builder** with no-code interface and Python/Go/TypeScript SDKs; **MCP server** for Claude, Cursor, VS Code; **Bring Your Own Model** (OpenAI, Anthropic, Google, Mistral, or local Ollama); **code graphs** for repository analysis (v1.0.0) ; guardrails for agent actions (delete requires approval, SQL runs read-only by default) . **Tech stack**: Python (backend), TypeScript/React (UI), Qdrant, Neo4j, MongoDB, Redis. **Deploy**: Self-hosted (Docker Compose), VPC, on-premise, or air-gapped . **Trade-off**: **Newer than Glean**—connector depth and polish are still maturing compared to the commercial leader. Agentic action execution is more limited than Moveworks. **Best for**: organizations wanting a self-hosted Glean alternative with permission-aware search, citations, and agent capabilities—without sending data to a vendor cloud.
-
-
-
-- **[Viglet Turing ES](https://github.com/openviglet/turing-ce)**
-
-  **Open-source enterprise search + generative AI platform** (Apache 2.0) — **the most mature open-source alternative to Coveo and Algolia**, built on production search engines . **Features**: **Hybrid BM25 + kNN vector search** with Reciprocal Rank Fusion; **faceted semantic navigation** (spotlights, targeting rules, autocomplete, multi-language); **RAG chat with inline citations**; **AI agents** with native provider tools (web search, code execution); **MCP servers**; **multi-engine support** (Apache Solr, Elasticsearch, embedded Lucene—swap without rewriting); **indexing API** with schema-as-code; **connectors** via Viglet Dumont (Adobe AEM, WordPress, databases, filesystem, web crawls); **Apache Tika** for PDF/Office parsing. **Tech stack**: Java (Spring Boot), React 19 (admin console), Solr/Elasticsearch/Lucene. **Deploy**: Docker Compose (full stack), Kubernetes manifests, or packaged installers . **Trade-off**: **Search-engine-centric**—requires Solr/Elasticsearch expertise. Not a plug-and-play SaaS replacement; you configure indexing pipelines and relevance tuning. **Best for**: organizations wanting a Coveo alternative with full control over search infrastructure and no per-query metering—especially in regulated or air-gapped environments.
-
-
-
-- **[Red Arch Knowledge Manager (KM2)](https://github.com/redarchlabs/red-arch-km)**
-
-  **Open-source, role-based platform for organizational knowledge** (Apache 2.0) — **the most feature-complete open-source knowledge platform with governed AI agents** found in this research. **Features**: **Enterprise document brain** with RAG, passage-level citations, vector search, and knowledge graph; **no-code application layer** (custom entities, forms, views, dashboards, BPMN-style workflows); **governed org of AI agents** with model tiering, authority engine, approvals, and schedules; **fine-grained RBAC** down to field level (`server_only`, `workflow_only`) with PostgreSQL Row-Level Security; **in-app assistant** that can author entities, forms, views, and workflows on request; **multi-tenant isolation**; release-based change management with diff/preview/rollback . **Tech stack**: FastAPI (Python), Next.js (React), PostgreSQL 18 (RLS), Qdrant, Neo4j, Redis, MinIO, Clerk (OIDC). **Deploy**: Self-hosted (Docker Compose). **Trade-off**: **Complex platform**—requires operational maturity to deploy and govern. Clerk dependency for authentication. Go rewrite of core services is in progress but Python services remain authoritative . **Best for**: organizations wanting an enterprise knowledge platform with truly governed AI agents and field-level security—not just search, but a foundation for building knowledge apps.
-
-
-
-- **[OpenBeam](https://github.com/kuluruvineeth/openbeam)**
-
-  **Open-source Glean for SaaS and the physical world** (AGPL) — **the most ambitious open-source project in scope**, unifying digital and physical data sources with autonomous agents . **Features**: **87 connectors** spanning SaaS (Slack, GitHub, Notion, Linear, Salesforce, Jira, Gmail), IoT (Samsara, Verkada, AWS IoT), and industrial protocols (MQTT, OPC-UA, BACnet); **hybrid semantic + keyword search** with sub-200ms p99 latency; **AI agents** with 100+ composable tools; **six pre-built autonomous agents** (Knowledge Digest, Stale Content Detector, Connector Health, Search Quality, Onboarding Curator, Compliance Watchdog) on Temporal cron schedules with approval gating; **MCP server**; **permission-aware**; **edge-ready** with offline SQLite deployment . **Tech stack**: Go (CLI), Docker Compose. **Deploy**: Self-hosted or edge. **Trade-off**: **Ambitious scope but early-stage**—connector reliability and agent quality across 87 sources will vary. The physical/IoT focus is unique but may be overkill for pure digital knowledge discovery. **Best for**: organizations wanting to unify SaaS and operational/physical data in one search layer—especially industrial, logistics, or facilities teams.
-
-
-
-- **[okforge](https://pypi.org/project/okforge/)**
-
-  **Local-first LLM knowledge-base engine** (license per repo) — **the most privacy-focused open-source option**, compiling documents into an interlinked wiki before retrieval . **Features**: **Compiles sources into curated Markdown wiki** (per-document summaries, cross-document concept/entity pages, extracted images) with **(p. N) citations** back to source; **OKF (Open Knowledge Format)** for portability—wiki readable in Obsidian or any editor; **locate-then-read query agent** (reads curated pages first, then drills with `grep_wiki`) rather than re-embedding everything; **MCP server** (stdio and Streamable HTTP) for Claude, Cursor, etc.; **any OpenAI-compatible LLM** (local llama.cpp, Ollama, OpenRouter, hosted providers); **vision-OCR plugin** for scanned documents . **Tech stack**: Python (CLI), Markdown output. **Deploy**: Local CLI (`pip install okforge`); MCP server runs locally. **Trade-off**: **Single-user CLI tool, not a multi-tenant enterprise platform**—no permissions, no connectors to SaaS apps, no web UI. It is a personal/team knowledge compiler, not a Glean replacement. **Best for**: individuals and small teams wanting a portable, citation-backed knowledge base they can query locally or via MCP—without cloud dependency.
-
-
-
-- **[PandaWiki](https://landscape.jimmysong.io/projects/pandawiki/)**
-
-  **Open-source AI-native knowledge base system** (license per Chaitin) — **a focused, embeddable knowledge base for docs and FAQs** . **Features**: **Multi-source ingestion** (web pages, RSS, Markdown, HTML, Word, PDF); **vector retrieval with RAG pipelines**; semantic search and QA; **embeddable frontend plugins and SDKs** for websites and chatbots; TypeScript and Go components; containerized deployment . **Tech stack**: TypeScript, Go, vector database. **Deploy**: Self-hosted (containerized). **Trade-off**: **Narrower scope**—knowledge base for docs/FAQs, not enterprise-wide search across SaaS apps. No permission-aware connectors or agentic actions. **Best for**: teams wanting an intelligent documentation/FAQ center with RAG, embeddable into their product or website.
-
-
-
-- **[Khoj](https://github.com/khoj-ai/khoj)**
-
-  **Open-source AI personal research assistant** (AGPL) — **the most mature open-source alternative to Notion Q&A and Rovo for personal/small-team use**, with ~34,600 GitHub stars . **Features**: Cross-document and web search; research paper management with citations; personal agent building; local AI execution; multimodal support; available as web and desktop app; API and SDK . **Tech stack**: Python, Django, PostgreSQL. **Deploy**: Self-hosted or Khoj Cloud. **Trade-off**: **Personal/small-team focus**—not enterprise search with SaaS connectors or permission inheritance. Designed for individual knowledge workers, not organizational discovery. **Best for**: researchers and individuals wanting an AI assistant over their own documents and notes with local execution.
-
-
-
-- **[Synaptane](https://pypi.org/project/synaptane/)**
-
-  **Self-hosted wiki with AI and MCP** (AGPL, pre-release) — **a privacy-first team wiki with AI assistant capabilities** . **Features**: **Git-backed wiki** with spaces; **AI assistant** for queries and routines; **MCP server** for Claude.ai and ChatGPT connectors; semantic search with embeddings (Ollama works locally); **OAuth and SSO**; inbox and nightly tidy-up routines; French/English UI . **Tech stack**: Python, Docker, Git. **Deploy**: Self-hosted (Docker Compose). **Trade-off**: **Alpha software**—the project explicitly states "expect rough edges," API and config may change, and some features are untested. No enterprise connectors or permission-aware search across SaaS apps. **Best for**: small teams wanting a self-hosted wiki with AI Q&A and MCP integration, willing to accept pre-release stability.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **XWiki (with LLM Application)** — Enterprise wiki (LGPL-2.1) with configurable AI answer filtering by view rights. **Note**: Wiki-first; AI is an add-on, not the core. Permission behavior must be verified before use with restricted content . **Best for**: organizations wanting a mature wiki with optional AI search.
-
-- **Open WebUI** — Self-hosted LLM interface (license per repo) with knowledge base support. **Note**: Access is per knowledge base, not per document—unsuitable for mixed-permission content without segmenting into separate KBs . **Best for**: teams wanting a private ChatGPT-like interface over their own models.
-
-- **Docmost** — Collaborative wiki with AI Answers (AGPL for Community). **Note**: AI Answers requires Business/Enterprise license; searches only visible spaces . **Best for**: teams wanting a modern wiki with native AI.
-
-
-
-**Frameworks for building custom systems**: Combine **PipesHub** as the permission-aware enterprise search and agent layer with **Viglet Turing** for hybrid search and relevance tuning, **Red Arch KM2** for governed agent workflows and field-level security, and **okforge** for local-first knowledge compilation—creating a knowledge discovery stack. **None of these match Glean's 100+ connectors or Moveworks' agentic action breadth**; organizations needing the deepest connector coverage or action execution will require commercial platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI knowledge discovery platforms handling enterprise data must comply with data protection regulations (GDPR, CCPA, etc.) and implement permission-aware retrieval—**search must filter by the caller's permissions before returning results**, not after.
-
-- **The "permission-aware enterprise search" vs. "local-first knowledge compiler" vs. "AI wiki assistant" distinction is critical.** **PipesHub, Viglet Turing, Red Arch KM2, OpenBeam, and Glean** are **enterprise search platforms**—they connect to SaaS apps, inherit permissions, and index at organizational scale. **okforge** is a **local-first compiler**—it builds a portable wiki from documents you feed it, with no SaaS connectors or multi-user permissions . **PandaWiki, Khoj, and Synaptane** are **focused knowledge tools**—for docs/FAQs, personal research, or team wikis respectively. **Choose based on whether you need organization-wide discovery, personal knowledge management, or a documentation Q&A layer.**
-
-- **PipesHub is the strongest open-source Glean alternative** with 50+ connectors, permission inheritance, knowledge graphs, and agent builder . **The trade-off**: it is newer than Glean, and connector depth is still maturing. v1.0.0 added code graphs and tighter agent guardrails, signaling active production hardening .
-
-- **Viglet Turing is the strongest open-source Coveo alternative** for search relevance and hybrid retrieval, built on Solr/Elasticsearch . **The trade-off**: it requires search-engine expertise and does not provide SaaS connectors out of the box (Viglet Dumont handles AEM/WordPress/databases).
-
-- **Red Arch KM2 is uniquely ambitious** with governed AI agents, field-level RBAC, and no-code app building . **The trade-off**: complexity—it is a platform to build on, not a turnkey search tool.
-
-- **okforge is not an enterprise search replacement.** It has no SaaS connectors, no permission model, and no web UI for teams . **It is a privacy-first, local knowledge compiler** for individuals who want citation-backed answers over their own documents—and it works exceptionally well for that use case.
-
-- **Pricing opacity is universal across commercial vendors.** Glean, Guru, Coveo, Hebbia, GoSearch, Dashworks, Slite, and Moveworks require sales contact. Atlassian Rovo uses credit-based pricing ($0.01/credit) . Notion Q&A requires the AI add-on. **Validate with direct vendor conversations against your connector count and user base.**
-
-- Self-hosted open-source solutions require proper infrastructure (vector databases, graph databases, workers), model API key management or local GPU provisioning, and ongoing maintenance. **Enterprise knowledge data is highly sensitive**—ensure your deployment meets your organization's security and privacy requirements, and **verify permission inheritance works correctly before exposing search to users**.
-
-
+> **A curated directory of leading SaaS platforms and open-source GitHub projects for AI-powered Enterprise Search, RAG with Citations, Permission-Aware Retrieval, Knowledge Graphs, and Autonomous Knowledge Agents.**
 
 ---
 
+## 📖 Overview
 
+Organizations generate mountains of unstructured intelligence scattered across disparate SaaS silos (Slack, Google Drive, Notion, Confluence, Jira, GitHub, Zendesk, Salesforce). Traditional keyword search fails across this fragmentation. 
 
-**Made for developers, IT teams, and organizations building transparent AI knowledge discovery solutions.**
+**AI Knowledge Discovery Agents** bridge this gap by indexing distributed organizational data, adhering strictly to enterprise Access Control Lists (ACLs), synthesizing contextual answers with passage-level citations via Retrieval-Augmented Generation (RAG), and orchestrating multi-step agentic workflows.
 
-Let's make AI Knowledge Discovery & Agents more open, data-driven, and permission-aware.
+This list tracks:
+- **Commercial SaaS Platforms:** Fully managed, turn-key workplace intelligence and cognitive search engines.
+- **Open-Source Systems & Frameworks:** Self-hostable, privacy-preserving, air-gapped, and local-first AI search infrastructure.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The AI-driven enterprise search and knowledge discovery sector is valued between **$6.4B and $7.5B** (projected to reach over **$14B+ by the early 2030s** at an 8.5%–14% CAGR, accelerated by enterprise generative AI and agentic RAG adoption). 
+
+The market exhibits a **bifurcated hybrid structure: highly concentrated at the platform core, yet extensively fragmented across independent specialized vendors**. Tech hyperscalers (Microsoft 365 Copilot/Azure AI Search, Google Vertex AI Search, and ServiceNow) capture broad enterprise desktop mindshare; however, high corporate data fragmentation and strict access control requirements sustain a vibrant, fragmented ecosystem of specialized search engines (Glean, Coveo, Hebbia) and rapidly maturing open-source platforms (Onyx, PipesHub, RAGFlow, Khoj).
+
+---
+
+## 📑 Table of Contents
+
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [SaaS & Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [Open-Source GitHub Projects](#-open-source-github-projects)
+- [Architectural Patterns & Key Differentiators](#-architectural-patterns--key-differentiators)
+- [How to Contribute](#-how-to-contribute)
+- [Disclaimer & Security Considerations](#-disclaimer--security-considerations)
+
+---
+
+## 🏢 SaaS & Hosted Enterprise Platforms
+
+| Product | Company Scale / Valuation | Pricing (Starting Tier) | Free Tier Limits / Trial | Core Capabilities & Best For |
+|:---|:---|:---|:---|:---|
+| **[Atlassian Rovo](https://www.atlassian.com/platform/artificial-intelligence)** | **$55B - $57B** Market Cap (NASDAQ: TEAM) | **$10/user/mo** (Jira/Confluence Cloud Standard tier; includes 25 pooled Rovo credits/seat/mo; excess at $0.01/credit) | **Forever-free plan capped at 10 users** (limited basic AI trials; no pooled Rovo credits) | Enterprise teamwork graph indexing Jira, Confluence, and 3rd-party connectors. Best for teams deeply invested in the Atlassian Cloud ecosystem. |
+| **[Notion Q&A](https://www.notion.com/)** | **$11B - $12B** Valuation ($865M+ ARR) | **$20/user/mo** billed annually ($24 monthly on Business plan, which bundles full Notion AI, Notion Agent, and Enterprise Search) | **Forever-free plan with 20 complimentary Notion AI trial responses**; 30-day trial for Business plan | Unified AI search across Notion workspaces and connected tools (Slack, Google Drive, GitHub). Best for Notion-centric teams wanting zero-setup search. |
+| **[Glean](https://www.glean.com/)** | **$7.2B** Valuation ($300M+ ARR) | **$45/user/mo** (enterprise packages typically range $45–$75/user/mo billed annually; minimum 100-seat contract size starting ~$45k–$50k/yr) | **No free tier**; 30-day custom enterprise pilot/POC upon sales approval | Comprehensive Work AI platform with 100+ native connectors, deep permission-aware ACL search, and custom agent builder. The commercial category leader. |
+| **[Moveworks](https://www.moveworks.com/)** | **$2.85B** Acquisition by ServiceNow ($100M+ ARR) | **$15/employee/yr** (contract pricing ranges ~$15–$45/employee/yr based on total headcount; median enterprise ACV ~$130k/yr) | **No free tier**; custom vendor sandbox/guided POC for enterprise buyers | Autonomous agentic employee support resolving IT, HR, and facilities tickets across enterprise systems. Best for enterprise IT automation. |
+| **[Hebbia](https://www.hebbia.com/)** | **$700M** Valuation ($13M+ ARR) | **$250/seat/mo** (billed annually at ~$3,000 to $15,000+/seat/yr for specialized analyst seats) | **No free tier**; guided institutional pilot on select deal rooms/document sets | "Matrix" multi-agent tabular analysis over millions of documents, SEC filings, contracts, and data rooms. Best for private equity, investment banking, and legal due diligence. |
+| **[Coveo](https://www.coveo.com/)** | **$330M - $350M** Market Cap (TSX: CVO) | **$990/mo** (Coveo for Salesforce Pro+ starting tier billed annually; core enterprise search suites scale upwards of $10,000/mo) | **No free tier**; 30-day proof-of-concept trial available through enterprise sales | Enterprise cognitive search and relevance generative answering (RGA) engine with fine-grained index tuning and deep commerce/service integrations. |
+| **[GoSearch](https://www.gosearch.ai/)** | **$108M** Valuation / ~$27M Funding ($25M–$50M ARR) | **$20/user/mo** (Pro plan with no seat minimums, unlimited searches, unlimited GoAI conversations, and advanced LLM access) | **Forever-free tier capped at 10 searches/day**, 3 GoAI queries/day, and 1 file upload (5 MB max) | Fast-to-deploy multimodal enterprise search across workplace tools, unified with GoLinks workspace navigation. |
+| **[Guru](https://www.getguru.com/)** | **$70M+** Total Funding (~$15M–$25M ARR) | **$15/user/mo** (historical starter base tier; custom-scoped quotes for enterprise AI knowledge agents) | **30-day free trial** with access to core AI search and verification extensions (no credit card required) | AI-powered verified knowledge cards with contextual answer delivery directly inside Slack, MS Teams, and web browsers. |
+| **[Dashworks](https://www.dashworks.ai/)** | **$12M+** Funding (Acquired by HubSpot) | **$12/seat/mo** ($10/seat/mo billed annually on Team plan; Business plan starts at $15/seat/mo with 10-seat min) | **14-day free trial** with full access to 50+ integrations and Slack bot (no credit card required) | Turn-key AI knowledge assistant integrating 50+ SaaS apps, offering instant conversational answers and automated workflows. |
+| **[Slite AI](https://slite.com/)** | **$15.5M** Total Funding (~$5M ARR) | **$10/user/mo** (Basic plan billed annually; Pro plan at $20/user/mo adds unlimited AI search and 50 agent credits/seat/mo) | **14-day free trial** with full document collaboration and AI Q&A features (no credit card required) | Collaborative team wiki with built-in "Ask AI" assistant and automated knowledge verification. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+All repositories are sorted descending by community GitHub star count. Star counts reflect real-time live metrics.
+
+| Project | GitHub Stars | License | Architecture & Key Features | Deployment & Best For |
+|:---|:---:|:---:|:---|:---|
+| **[Open WebUI](https://github.com/open-webui/open-webui)** | [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) | Open Source (Custom) | Self-hosted, user-friendly AI interface with built-in RAG, document ingestion, web search, multi-model support, Ollama orchestration, and granular RBAC. | Docker / Kubernetes. Best for organizations wanting an internal private ChatGPT-like knowledge portal over local or cloud models. |
+| **[RAGFlow](https://github.com/infiniflow/ragflow)** | [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) | Apache-2.0 | Deep document understanding engine based on OCR and vision-language extraction. Handles complex tables, slide decks, PDFs, multi-modal cross-referencing, and grounded citations. | Docker Compose. Best for enterprises processing complex, unstructured documents (PDFs, scans, manuals) needing high-accuracy extraction. |
+| **[MetaGPT](https://github.com/geekan/MetaGPT)** | [![Stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=social&color=white)](https://github.com/geekan/MetaGPT/stargazers) | MIT | Multi-agent collaborative framework that assigns distinct roles (architect, engineer, QA, researcher) to autonomously discover, synthesize, and execute knowledge-intensive software workflows. | Python CLI / Docker. Best for complex multi-agent discovery and automated research pipelines. |
+| **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** | [![Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers) | MIT | All-in-one AI enterprise knowledge base application. Offers multi-user workspaces, document vectorization, web scraping, custom agent skills, and full local LLM/vector DB support. | Desktop / Docker / Cloud. Best for teams wanting an out-of-the-box local or cloud knowledge management tool. |
+| **[Khoj](https://github.com/khoj-ai/khoj)** | [![Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers) | AGPL-3.0 | Personal AI research assistant and second brain. Indexes local documents (PDF, Markdown, Org-mode), GitHub repos, Notion, and web; features scheduled routines and multimodal voice/chat. | Self-hosted (Docker) or Khoj Cloud. Best for researchers, technical writers, and power users wanting an autonomous personal knowledge assistant. |
+| **[Onyx (formerly Danswer)](https://github.com/danswer-ai/onyx)** | [![Stars](https://img.shields.io/github/stars/danswer-ai/onyx?style=social&color=white)](https://github.com/danswer-ai/onyx/stargazers) | MIT | Full-featured open-source enterprise search and chat platform. Connects to 35+ enterprise apps (Slack, Drive, Confluence, Jira, GitHub), respects document permissions, provides inline citations, and supports custom LLM agents. | Docker Compose / Helm / Kubernetes. Best for companies seeking an open-source, permission-aware Glean alternative. |
+| **[STORM](https://github.com/stanford-oval/storm)** | [![Stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social&color=white)](https://github.com/stanford-oval/storm/stargazers) | MIT | Stanford-developed LLM knowledge curation engine. Uses multi-perspective question-asking and simulated discourse to autonomously discover information across the web and synthesize comprehensive, citation-backed Wikipedia-style reports. | Python CLI. Best for automated deep research, literature reviews, and topic briefing. |
+| **[Docmost](https://github.com/docmost/docmost)** | [![Stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers) | AGPL-3.0 | Modern open-source collaborative wiki and documentation software with real-time editing, nested spaces, permission governance, and native AI answering integrations. | Docker. Best for organizations wanting an open-source alternative to Notion or Confluence with AI-powered search. |
+| **[PandaWiki](https://github.com/chaitin/PandaWiki)** | [![Stars](https://img.shields.io/github/stars/chaitin/PandaWiki?style=social&color=white)](https://github.com/chaitin/PandaWiki/stargazers) | Open Source | AI-native documentation and technical wiki system. Features multi-source ingestion, vector retrieval RAG pipelines, embeddable widgets, and interactive Q&A bots for product documentation. | Containerized / Self-hosted. Best for engineering and developer-relations teams building AI-assisted developer portals. |
+| **[PipesHub](https://github.com/pipeshub-ai/pipeshub-ai)** | [![Stars](https://img.shields.io/github/stars/pipeshub-ai/pipeshub-ai?style=social&color=white)](https://github.com/pipeshub-ai/pipeshub-ai/stargazers) | Apache-2.0 | Self-hosted enterprise AI search and agent platform. Features 50+ enterprise connectors, strict permission-aware ACL inheritance, hybrid vector + Neo4j knowledge graphs, MCP server support, and agent action guardrails. | Docker Compose / On-Prem / Air-gapped. Best for organizations requiring an on-premise Glean alternative with knowledge graph navigation. |
+| **[XWiki Platform](https://github.com/xwiki/xwiki-platform)** | [![Stars](https://img.shields.io/github/stars/xwiki/xwiki-platform?style=social&color=white)](https://github.com/xwiki/xwiki-platform/stargazers) | LGPL-2.1 | Mature enterprise wiki engine with extensive extension ecosystem. Integrates LLM applications and semantic vector search filtered strictly according to user view rights and group permissions. | Docker / Debian / Tomcat. Best for large enterprises, universities, and government agencies with strict on-premise documentation policies. |
+| **[Viglet Turing ES](https://github.com/openviglet/turing-ce)** | [![Stars](https://img.shields.io/github/stars/openviglet/turing-ce?style=social&color=white)](https://github.com/openviglet/turing-ce/stargazers) | Apache-2.0 | Open-source enterprise cognitive search and Generative AI platform. Implements hybrid BM25 + kNN vector search (Solr, Elasticsearch, embedded Lucene), faceted semantic navigation, MCP servers, and inline RAG citations. | Docker Compose / Kubernetes. Best for enterprises seeking a self-hosted Coveo or Algolia alternative with complete relevance control. |
+| **[OpenBeam](https://github.com/kuluruvineeth/openbeam)** | [![Stars](https://img.shields.io/github/stars/kuluruvineeth/openbeam)](https://github.com/kuluruvineeth/openbeam/stargazers) | AGPL-3.0 | Multi-source knowledge discovery unifying SaaS data with physical IoT operations (Samsara, Verkada, MQTT, BACnet). Features 6 pre-built autonomous agents on Temporal cron schedules and sub-200ms hybrid search. | Docker Compose / Edge (SQLite). Best for industrial, logistics, and facilities enterprises bridging digital and physical telemetry. |
+| **[okforge](https://github.com/okforge/okforge)** | [![Stars](https://img.shields.io/github/stars/okforge/okforge?style=social&color=white)](https://github.com/okforge/okforge/stargazers) | Open Source | Local-first knowledge base engine that compiles unstructured documents into an interlinked Markdown wiki with page citations. Features locate-then-read query agents and MCP server integration. | Python CLI (`pip install okforge`). Best for privacy-focused individuals and analysts wanting offline, portable citation-backed knowledge bases. |
+| **[Synaptane](https://github.com/synaptane/synaptane)** | [![Stars](https://img.shields.io/github/stars/synaptane/synaptane?style=social&color=white)](https://github.com/synaptane/synaptane/stargazers) | AGPL-3.0 | Git-backed self-hosted team wiki with embedded AI assistant, local Ollama semantic search, MCP connectors for Claude/ChatGPT, and automated knowledge hygiene routines. | Docker Compose. Best for small developer teams seeking a Git-native wiki with AI context. |
+| **[Red Arch KM2](https://github.com/redarchlabs/red-arch-km)** | [![Stars](https://img.shields.io/github/stars/redarchlabs/red-arch-km?style=social&color=white)](https://github.com/redarchlabs/red-arch-km/stargazers) | Apache-2.0 | Role-based enterprise document brain and governed agent application builder. Combines PostgreSQL RLS, Qdrant vectors, Neo4j graphs, and field-level permission enforcement. | Docker Compose. Best for security teams needing governed, verifiable multi-tenant AI agents. |
+
+---
+
+## 🏗️ Architectural Patterns & Key Differentiators
+
+When evaluating AI Knowledge Discovery and Enterprise Search solutions, tools generally fall into three distinct architectural categories:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        Enterprise Search Layer                         │
+│  (Glean, Onyx, PipesHub, Turing ES, Coveo, Moveworks)                  │
+│  • 50–100+ connectors (Slack, Google Drive, Jira, GitHub)             │
+│  • Pre-query Access Control List (ACL) permission filtering           │
+│  • Hybrid Vector (Qdrant/Milvus) + Keyword (BM25/Solr) + Graph (Neo4j) │
+└────────────────────────────────────────────────────────────────────────┘
+                                    │
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                      Workspace & AI Wiki Hubs                          │
+│  (Notion Q&A, Atlassian Rovo, Docmost, PandaWiki, XWiki)              │
+│  • Collaborative documentation native to the team's authoring workflow │
+│  • Scoped workspace search and conversational Q&A                      │
+│  • Native agent authoring and automated meeting/page summaries         │
+└────────────────────────────────────────────────────────────────────────┘
+                                    │
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                   Local-First & Autonomous Research                    │
+│  (AnythingLLM, Khoj, STORM, okforge, Synaptane)                        │
+│  • Air-gapped, zero data retention, local LLM execution (Ollama)      │
+│  • Model Context Protocol (MCP) servers for Cursor / Claude Desktop    │
+│  • Deep web discourse simulation and synthesized briefings            │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+### 1. Permission-Aware Retrieval (ACL Enforcement)
+* **Pre-Query Filtering (Enterprise Standard):** Search queries evaluate the user's authenticated identity against the source document's Access Control Lists (ACLs) *before* similarity ranking occurs. A user never receives vector results or synthesized LLM answers derived from private files they lack credentials to view.
+* **Post-Query Filtering (Unsafe for Enterprise):** Retrieving top-k chunks blindly and filtering afterward leaks sensitive metadata and causes truncated or hallucinated answers.
+
+### 2. Retrieval Mechanisms: Vector vs. Hybrid vs. Graph
+* **Pure Vector (Dense):** Captures semantic intent but misses exact codes, SKUs, ticket keys (`PROJ-1042`), and names.
+* **Hybrid Search (Dense + BM25 Sparse):** Uses Reciprocal Rank Fusion (RRF) to combine keyword precision with semantic embeddings.
+* **Graph-RAG (Knowledge Graphs):** Maps organizational hierarchies, entity relationships, and cross-document references (e.g., Neo4j) to prevent hallucinated relationship queries.
+
+### 3. Model Context Protocol (MCP) Integration
+Modern knowledge platforms now expose **MCP endpoints**, allowing developer environments (Cursor, Claude Desktop, VS Code) to securely query the enterprise knowledge graph as an external memory tool.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To add a new platform or update existing metrics:
+
+1. **Fork** this repository.
+2. Ensure your proposed addition meets the scope (Enterprise Search, RAG with Citations, Permission-Aware Access, or Autonomous Knowledge Agents).
+3. If proposing a **SaaS platform**, include starting pricing and explicit free tier/trial limits.
+4. If proposing an **Open-Source project**, verify that the repo is publicly accessible and provides an active open-source license.
+5. Create a descriptive commit and submit a **Pull Request**.
+
+---
+
+## 🔒 Disclaimer & Security Considerations
+
+- **Community Maintained:** This repository is a curated informational index and does not represent an endorsement of any vendor or codebase.
+- **Enterprise Data Compliance:** When indexing enterprise repositories containing PII, HIPAA, or intellectual property, thoroughly audit connector permissions, data retention policies, and SOC2/ISO-27001 compliance.
+- **Local vs. Cloud Execution:** For air-gapped environments or strictly regulated entities, prefer self-hosted platforms with local model weights (via Ollama/vLLM) and isolated vector stores.
