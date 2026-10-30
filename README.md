@@ -69,9 +69,9 @@ The market exhibits a **bifurcated hybrid structure: highly concentrated at the 
 
 ## 💻 Open-Source GitHub Projects
 
-All repositories are sorted descending by community GitHub star count ⭐. Star counts reflect real-time live metrics.
+All repositories are sorted descending by community GitHub Stars_Count ⭐. Stars_Counts reflect real-time live metrics.
 
-| 💻 Project | ⭐ GitHub Stars | 📜 License | 🏗️ Architecture & Key Features | 🚀 Deployment & Best For |
+| 💻 Project | ⭐ GitHub_Stars | 📜 License | 🏗️ Architecture & Key Features | 🚀 Deployment & Best For |
 |:---|:---:|:---:|:---|:---|
 | **[Open WebUI](https://github.com/open-webui/open-webui)** | [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) | Open Source (Custom) | Self-hosted, user-friendly AI interface with built-in RAG, document ingestion, web search, multi-model support, Ollama orchestration, and granular RBAC. | Docker / Kubernetes. Best for organizations wanting an internal private ChatGPT-like knowledge portal over local or cloud models. |
 | **[RAGFlow](https://github.com/infiniflow/ragflow)** | [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) | Apache-2.0 | Deep document understanding engine based on OCR and vision-language extraction. Handles complex tables, slide decks, PDFs, multi-modal cross-referencing, and grounded citations. | Docker Compose. Best for enterprises processing complex, unstructured documents (PDFs, scans, manuals) needing high-accuracy extraction. |
