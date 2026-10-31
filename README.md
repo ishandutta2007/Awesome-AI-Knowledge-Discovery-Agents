@@ -69,7 +69,7 @@ The market exhibits a **bifurcated hybrid structure: highly concentrated at the 
 
 ## 💻 Open-Source GitHub Projects
 
-All repositories are sorted descending by community GitHub Stars_Count ⭐. Stars_Counts reflect real-time live metrics.
+All repositories are sorted descending by community GitHub_Stars_Count ⭐. Stars_Counts reflect real-time live metrics.
 
 | 💻 Project | ⭐ GitHub_Stars | 📜 License | 🏗️ Architecture & Key Features | 🚀 Deployment & Best For |
 |:---|:---:|:---:|:---|:---|
